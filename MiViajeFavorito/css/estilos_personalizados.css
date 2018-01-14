@@ -1,0 +1,44 @@
+body{
+    background: url("../img/fondo.jpg") repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    overflow-x: hidden;
+}
+.logo{
+  max-width: 12rem;
+  max-height: 12rem;
+  margin-top: 0.7rem;
+  margin-left: 6rem;
+  float: left;
+  border-radius: 5px;
+}
+.nav-title{
+  margin-top: 100px;
+}
+nav{
+  min-height: 12rem;
+}
+.img-social{
+  border-radius: 50%;
+}
+.contenedor-vertical{
+  height: 20px;
+}
+.foto1{
+float: left;
+
+}
+.foto2{
+  margin-right:25px;
+  width: 600px;
+
+  margin-top: 15px;
+  }
+.foto3{
+  width: 300px;
+  height: 30px;
+}
+@media screen and (min-width: 0px) and (max-width: 690px){
+  nav{
+    min-height: 15rem;
+}

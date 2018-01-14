@@ -1,0 +1,48 @@
+body{
+    background: url("../imagen/fondo.jpg") repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    overflow-x: hidden;
+}
+.slogan{
+  padding-left: 112px;
+}
+.container{
+  background-color: rgba(122, 122, 128, 0.4);
+
+}
+.favoritos{
+  padding-top: 30px;
+
+
+}
+.galeria{
+  min-width: 6rem;
+  min-height: 8rem;
+  margin-left: 1.7rem;
+}
+
+.imagen-plato{
+    margin: 10px 10% 10px 10%;
+    width: 50%;
+    min-width: 200px;
+}
+
+.contenido{
+    margin-left: 20px;
+    background: #e6d3e5;
+    padding: 15px 10px 0 10px;
+
+}
+
+.entrada{
+    background: #f4d9e2;
+    padding: 15px 10px 0 10px;
+    height: 100%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 690px){
+.entrada{
+    display: none;
+}
+}
